@@ -1,4 +1,5 @@
-- 👋 Hi, I’m Pratik Suryawanshi aka PS_O5. साधक.
+- 🙏🏻साधक🙏🏻
+- 👋 Hi, I’m Pratik Suryawanshi aka PS_O5. 
 - 👀 I’m currently interested in Computational Sciences, Artificil Intelligence, Application Development and also Swimming.
 - 🌱 I’m currently learning Python for A.I., C++ for Simulation Science and Playing FLute cause I love to.
 - 💞️ I’m looking to collaborate on anything that helps me and human civilization grow :)
