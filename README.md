@@ -1,6 +1,6 @@
 - 🙏🏻साधक🙏🏻
 - 👋 Hi, I’m Pratik Suryawanshi aka PS_O5. 
-- 👀 I’m currently interested in Computational Sciences, Artificial Intelligence, Application Development, Tantra and also Swimming.
+- 👀 I’m currently interested in Computational Sciences, Artificial Intelligence, Application Development, तन्त्र (Tantra) and also Swimming.
 - 🌱 I’m currently learning Python for A.I., C++ for Simulation Science and Playing FLute cause I love to.
 - 💞️ I’m looking to collaborate on anything that helps me and human civilization grow. :)
 - 📫 How to reach me: [PS_O5](https://www.instagram.com/ps_o5 "PS_O5") or [📧](mailto:patsuryawanshi@gmail.com?subject=[GitHub]).
