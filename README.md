@@ -11,7 +11,7 @@
      - [4. Forschungsarbeit](https://doi.org/10.22214/ijraset.2019.4536)
      - [5. Forschungsarbeit](https://drive.google.com/file/d/1eSzVForF7UzBu_s8OITbLTiIn-yllrTk/view)
      - [6. Forschungsarbeit](https://drive.google.com/file/d/1eYO0qhNrBCE4jKCbwSxwlZbuJjrcQSM1/view)
-
+     - [7. Forschungsarbeit](https://doi.org/10.1007/978-981-19-0561-2_5)
 <!---
 PS-O5/PS-O5 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
