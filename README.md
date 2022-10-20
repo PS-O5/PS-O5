@@ -5,7 +5,7 @@
 - 💞️ I’m looking to collaborate on anything that helps me and human civilization grow. :)
 - 📫 How to reach me: [PS_O5](https://www.instagram.com/ps_o5 "PS_O5") or [📧](mailto:patsuryawanshi@gmail.com?subject=[GitHub]).
 - 📝 Feel free to go through my infinitesimal contribution to the science, any suggestions are welcome. Wherever possible make sure to cite me. 😉
-     - [Forschungsarbeit](https://www.researchgate.net/profile/Pratik-Suryawanshi-7)
+     - [Forschungsarbeiten](https://www.researchgate.net/profile/Pratik-Suryawanshi-7)
 <!---
 PS-O5/PS-O5 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
