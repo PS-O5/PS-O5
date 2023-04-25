@@ -1,7 +1,7 @@
 - 🙏🏻साधक🙏🏻
 - 👋 Hi, I’m Pratik Suryawanshi aka PS_O5. 
 - 👀 I’m currently interested in Computational Sciences, Artificial Intelligence, Product Development, तन्त्र (Tantra) and Swimming.
-- 🌱 I’m currently learning advance HPC like CUDA, pthreads, OpenMP, OpenCL, OpenGL for Commputational Sciences and Playing FLute cause I love to.
+- 🌱 I’m currently learning advance HPC like CUDA, pthreads and OpenMP for Commputational Sciences and Playing FLute cause I love to.
 - 💞️ I’m looking to collaborate on anything that helps me and human civilization grow. :)
 - 📫 How to reach me: [PS_O5](https://www.instagram.com/ps_o5 "PS_O5") or [📧](mailto:patsuryawanshi@gmail.com?subject=[GitHub]).
 - 📝 Feel free to go through my infinitesimal contribution to the science, any suggestions are welcome. Wherever possible make sure to cite me. 😉
