@@ -1,7 +1,7 @@
 <h1 align="center">🙏🏻 साधक 🙏🏻</h1>
 
 <p align="center">
-  <b>Hi, I’m Pratik Suryawanshi — aka <code>PS_O5</code> 👋</b><br>
+  <b>Hi, I’m Pratik Suryawanshi aka <code>PS_O5</code> 👋</b><br>
   <i>Seeker of knowledge. Builder of ideas. Explorer of the inner and outer worlds.</i>
 </p>
 
