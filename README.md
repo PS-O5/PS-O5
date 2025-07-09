@@ -1,8 +1,17 @@
 <h1 align="center">🙏🏻 साधक 🙏🏻</h1>
 
 <p align="center">
-  <b>Hi, I’m Pratik Suryawanshi aka <code>PS_O5</code> 👋</b><br>
+  <b>Hi, I’m Pratik Suryawanshi — aka <code>PS_O5</code> 👋</b><br>
   <i>Seeker of knowledge. Builder of ideas. Explorer of the inner and outer worlds.</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HPC-CUDA%20%7C%20OpenMP%20%7C%20SYCL-brightgreen?logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Architecture-ARM%20%7C%20RISC--V-blue?logo=arm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FPGA-Verilog%20%7C%20SystemVerilog-orange?logo=intel"/>
+  <img src="https://img.shields.io/badge/Simulation-Navier--Stokes%20%7C%20Maxwell's%20Eq-yellow?logo=codeforces&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Spiritual-तन्त्र%20(Tantra)-red"/>
+  <img src="https://img.shields.io/badge/Flute-Learning-blueviolet"/>
 </p>
 
 ---
@@ -25,17 +34,15 @@
 
 ---
 
-### 🛠️ Featured Work
-Here’s a glimpse of what I’ve been working on:
+### 🛠️ Featured Repositories (CURRENTLY PRIVATE!)
+Here are a few projects from my GitHub that showcase what I’m working on:
 
-- 🧠 AI/ML & Simulation Repos:  
-  ➤ Solvers for **Navier–Stokes**, **Maxwell’s Equations**, and more
+| 🔬 Simulation | 💻 HPC & Architecture | 📐 Math & Analysis |
+|--------------|----------------------|--------------------|
+| [🌀 Navier-Stokes Solver](https://github.com/your-username/navier-stokes-solver) | [⚡ CUDA Matrix Ops](https://github.com/your-username/cuda-matrix-ops) | [📘 PDE Analysis](https://github.com/your-username/pde-analysis) |
+| [📡 Maxwell's Equations Simulator](https://github.com/your-username/maxwells-sim) | [🔩 RISC-V Microarchitecture](https://github.com/your-username/riscv-arch) | [🧮 FEM for Poisson Eq](https://github.com/your-username/fem-poisson) |
 
-- 🏗️ Architecture & HPC Projects:  
-  ➤ Implementations on **FPGA**, **ARM/RISC-V pipelines**,  
-  ➤ CUDA, SYCL, OpenCL codes for high-throughput computing
-
-> Explore my GitHub repos for source codes, models, and research-backed simulations (Currently private but will be made public soon!) 📁
+> 🔗 *More repositories available on my GitHub. I regularly update my work with real-world relevance and academic rigor.*
 
 ---
 
@@ -60,11 +67,19 @@ Feel free to browse my work, share feedback, or cite it in your research:
 
 ---
 
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ps-o5&show_icons=true&theme=radical" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ps-o5&layout=compact&theme=radical" height="180">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ps-o5&theme=radical&hide_border=true" />
+</p>
+
+---
+
 <p align="center">
   🌟 Thank you for visiting! Keep exploring, building, and evolving. 🌟  
 </p>
-
-<!---
-PS-O5/PS-O5 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
