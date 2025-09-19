@@ -40,7 +40,7 @@ Here are a few projects from my GitHub that showcase what I’m working on:
 | 🔬 Simulation | 💻 HPC & Architecture | 📐 Math & Analysis |
 |--------------|----------------------|--------------------|
 | [🌀 Navier-Stokes Solver](https://github.com/your-username/navier-stokes-solver) | [⚡ CUDA Matrix Ops](https://github.com/your-username/cuda-matrix-ops) | [📘 PDE Analysis](https://github.com/your-username/pde-analysis) |
-| [📡 Maxwell's Equations Simulator](https://github.com/your-username/maxwells-sim) | [🔩 RISC-V Microarchitecture](https://github.com/your-username/riscv-arch) | [🧮 FEM for Poisson Eq](https://github.com/your-username/fem-poisson) |
+| [📡 Maxwell's Equations Simulator](https://github.com/your-username/maxwells-sim) | [🔩 ARM v9 Microarchitecture](https://github.com/your-username/armv9-with-tpm) | [🧮 FEM for Poisson Eq](https://github.com/your-username/fem-poisson) |
 
 > 🔗 *More repositories available on my GitHub. I regularly update my work with real-world relevance and academic rigor.*
 
