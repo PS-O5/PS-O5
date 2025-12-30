@@ -66,8 +66,8 @@ I am an R&D Engineer bridging the gap between **Scientific Computing** and **Emb
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ps-o5&show_icons=true&theme=transparent&hide_border=true" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ps-o5&layout=compact&theme=transparent&hide_border=true" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=PS-O5&show_icons=true&theme=transparent&hide_border=true" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PS-O5&layout=compact&theme=transparent&hide_border=true" height="160">
 </p>
 
 ---
