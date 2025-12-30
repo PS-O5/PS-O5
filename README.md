@@ -50,7 +50,7 @@ Here are a few projects from my GitHub that showcase what I’m working on:
 I’m open to projects that:
 - Solve real-world problems with scientific rigor  
 - Push the boundaries of computing or understanding  
-- Foster growth — personally, professionally, and for the planet 🌍
+- Foster growth; personally, professionally, and for the planet 🌍
 
 ---
 
