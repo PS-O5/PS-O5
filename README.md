@@ -6,12 +6,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HPC-CUDA%20%7C%20OpenMP%20%7C%20SYCL-brightgreen?logo=nvidia&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Architecture-ARM%20%7C%20RISC--V-blue?logo=arm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FPGA-Verilog%20%7C%20SystemVerilog-orange?logo=intel"/>
-  <img src="https://img.shields.io/badge/Simulation-Navier--Stokes%20%7C%20Maxwell's%20Eq-yellow?logo=codeforces&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Spiritual-तन्त्र%20(Tantra)-red"/>
-  <img src="https://img.shields.io/badge/Flute-Learning-blueviolet"/>
+  <img src="https://img.shields.io/badge/HPC-CUDA%20%7C%20OpenMP%20%7C%20MPI-76B900?logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%20Acceleration-PyTorch%20%7C%20TinyML%20%7C%20GNNs-EE4C2C?logo=pytorch&logoColor=white"/>
+  <br>
+  
+  <img src="https://img.shields.io/badge/Architecture-RISC--V%20%7C%20ARM-0091BD?logo=arm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Silicon-Verilog%20%7C%20SystemVerilog-blue?logo=intel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Embedded-FreeRTOS%20%7C%20Linux%20Kernel-FCC624?logo=linux&logoColor=black"/>
+  <br>
+
+  <img src="https://img.shields.io/badge/SciComp-Navier--Stokes%20%7C%20Maxwell's%20Eq-ff69b4?logo=wolframmathematica&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Focus-Real--Time%20Determinism-critical?logo=clock&logoColor=white"/>
 </p>
 
 ---
