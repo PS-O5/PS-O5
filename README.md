@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/HPC-CUDA%20%7C%20OpenMP%20%7C%20MPI-76B900?logo=nvidia&logoColor=white"/>
   <img src="https://img.shields.io/badge/AI%20Acceleration-PyTorch%20%7C%20TinyML%20%7C%20GNNs-EE4C2C?logo=pytorch&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/Architecture-RISC--V%20%7C%20ARM-0091BD?logo=arm&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Architecture-ARM--V%20%7C%20RISC-0091BD?logo=arm&logoColor=white"/>
   <img src="https://img.shields.io/badge/Silicon-Verilog%20%7C%20SystemVerilog-blue?logo=intel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Embedded-FreeRTOS%20%7C%20Linux%20Kernel-FCC624?logo=linux&logoColor=black"/>
   <br>
