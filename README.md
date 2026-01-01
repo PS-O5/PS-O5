@@ -1,5 +1,5 @@
 <h1 align="center">Pratik Suryawanshi (PS_O5)</h1>
-<h3 align="center">SoC & HPC Architect | RISC-V | CUDA | Embedded AI</h3>
+<h3 align="center">SoC & HPC Architect | ARM & RISC-V | CUDA | Embedded AI</h3>
 
 <p align="center">
   <i>Specializing in Heterogeneous Computing, Hardware-Software Co-Design, and Scientific AI.</i>
