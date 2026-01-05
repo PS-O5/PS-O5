@@ -1,5 +1,5 @@
 <h1 align="center">Pratik Suryawanshi (PS_O5)</h1>
-<h3 align="center">SoC & HPC Architect | ARM & RISC-V | CUDA | Embedded AI</h3>
+<h3 align="center">SoC & HPC Engineer | C/C++ & CUDA | Linux Kernel, RTOS, ARM, RISC-V | Embedded AI</h3>
 
 <p align="center">
   <i>Specializing in Heterogeneous Computing, Hardware-Software Co-Design, and Scientific AI.</i>
@@ -67,7 +67,7 @@ I am an R&D Engineer bridging the gap between **Scientific Computing** and **Emb
 ### 🧘‍♂️ The Human Side
 When I am not optimizing kernels or debugging Verilog:
 * **Music:** Classical Flute (Learning & Practice).
-* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Indian Philosophy.
+* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Dvait-Advait Philosophy.
 * **Sport:** Swimming & Endurance Training.
 
 ---
