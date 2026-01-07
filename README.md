@@ -45,7 +45,7 @@ I am an R&D Engineer bridging the gap between **Scientific Computing** and **Emb
 | :--- | :--- |
 | **HPC & Acceleration** | **CUDA**, OpenMP, MPI, SIMD (AVX/RVV), AHMED Library |
 | **Embedded Systems** | **FreeRTOS**, Embedded Linux (Yocto), Bare-metal C, UART/I2C/SPI Drivers |
-| **Hardware Design** | **RISC-V** (T-Head C906), ARM Cortex-A/M, **SystemVerilog**, SoC Partitioning |
+| **Hardware Design** | **RISC-V** (T-Head TH1520), ARM Cortex-A/M, **SystemVerilog**, SoC Partitioning |
 | **Algorithms** | Numerical Methods (Elliptic PDEs), FFT/IFFT, Graph Neural Networks (GNN) |
 | **DevOps & Tools** | CMake, Docker, Git, NVIDIA Nsight, Verilator |
 
