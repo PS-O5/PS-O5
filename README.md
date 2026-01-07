@@ -57,7 +57,7 @@ I am an R&D Engineer bridging the gap between **Scientific Computing** and **Emb
 
 | Project | Tech Stack | Impact / Metric |
 | :--- | :--- | :--- |
-| **RISC-V GNN Accelerator** | `C`, `RVV Intrinsics`, `FreeRTOS` | **3.5x speedup** on MACE kernels via vectorization; achieved <1ms deterministic latency. |
+| **RISC-V GNN Accelerator(Ongoing)** | `C`, `RVV Intrinsics`, `FreeRTOS` | **Aiming for 3.5x speedup** on MACE kernels via vectorization; with <1ms deterministic latency. |
 | **Automotive Simulation Engine** | `CUDA`, `C++`, `NVIDIA Nsight` | Optimized GPU memory patterns for **ZF Group**, enabling real-time vehicle dynamics solving. |
 | **SoC Partitioning Framework** | `Python`, `SystemC`, `Graph Theory` | Reduced NoC traffic by **40%** for **Siemens** multi-core architectures. |
 | **Radar/SAR Imaging Pipeline** | `CUDA`, `OpenMP`, `Jetson TX2` | Accelerated FFT/IFFT kernels by 600% for high-fidelity radar imaging. |
