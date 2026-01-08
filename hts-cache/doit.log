@@ -1,8 +1,0 @@
--q -%i -w http://https://app.durable.co/website-builder?signup=true&w=65f21242a7c1bd67ec3be890&country={%22name%22:%22Germany%22,%22code%22:%22DE%22}&error=Good%20news!%20This%20user%20already%20has%20an%20account. -O "/home/ps_o5/websites/Git_Profile" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u
-File generated automatically on Wed, 13 Mar 2024 22:03:02, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
