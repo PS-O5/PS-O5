@@ -11,7 +11,7 @@
   <br>
   <img src="https://img.shields.io/badge/Architecture-ARM%20%7C%20RISC--V-0091BD?logo=arm&logoColor=white"/>
   <img src="https://img.shields.io/badge/Silicon-Verilog%20%7C%20SystemVerilog-blue?logo=intel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Embedded-FreeRTOS%20%7C%20Linux%20Kernel-FCC624?logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Embedded-Yocto%20%7C%20Linux%20Kernel-FCC624?logo=linux&logoColor=black"/>
   <br>
   <img src="https://img.shields.io/badge/SciComp-Navier--Stokes%20%7C%20Maxwell's%20Eq-ff69b4?logo=wolframmathematica&logoColor=white"/>
   <img src="https://img.shields.io/badge/Focus-Real--Time%20Determinism-critical?logo=clock&logoColor=white"/>
