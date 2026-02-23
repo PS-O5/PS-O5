@@ -75,4 +75,4 @@ When I am not optimizing kernels or debugging Verilog:
   <i>"Seeker of knowledge. Builder of ideas. Explorer of the inner and outer worlds."</i>
 </p>
 
-![Profile Views](https://img.shields.io/github/profile-views/PS-O5?color=blue)
+![Profile Views](https://komarev.com/ghpvc/?username=PS-O5&color=blue)
