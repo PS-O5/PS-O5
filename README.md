@@ -34,9 +34,6 @@
 ### 🚀 Professional Summary
 I am an R&D Engineer bridging the gap between **Scientific Computing** and **Embedded Hardware**. My work focuses on running complex physical models (PDEs) and AI inference on specialized silicon with strict real-time constraints.
 
-* **Master's Thesis:** Real-Time Determinism of Equivariant GNNs on **RISC-V** (Bare-metal/FreeRTOS).
-* **Key Interest:** Eliminating the "Real-Time Gap" in AI for Scientific Computing using **Vector Intrinsics (RVV/NEON)** and **Heterogeneous SoCs**.
-
 ---
 
 ### 🛠️ Technical Arsenal
@@ -57,7 +54,6 @@ I am an R&D Engineer bridging the gap between **Scientific Computing** and **Emb
 
 | Project | Tech Stack | Impact / Metric |
 | :--- | :--- | :--- |
-| **RISC-V GNN Accelerator(Ongoing)** | `C`, `RVV Intrinsics`, `FreeRTOS` | **Aiming for 3.5x speedup** on MACE kernels via vectorization; with <1ms deterministic latency. |
 | **Automotive Simulation Engine** | `CUDA`, `C++`, `NVIDIA Nsight` | Optimized GPU memory patterns for **ZF Group**, enabling real-time vehicle dynamics solving. |
 | **SoC Partitioning Framework** | `Python`, `SystemC`, `Graph Theory` | Reduced NoC traffic by **40%** for **Siemens** multi-core architectures. |
 | **Radar/SAR Imaging Pipeline** | `CUDA`, `OpenMP`, `Jetson TX2` | Accelerated FFT/IFFT kernels by 600% for high-fidelity radar imaging. |
