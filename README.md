@@ -1,20 +1,17 @@
-<h1 align="center">Pratik Suryawanshi (PS_O5)</h1>
-<h3 align="center">SoC & HPC Engineer | C/C++ & CUDA | Linux Kernel, RTOS, ARM, RISC-V | Embedded AI</h3>
+<h1 align="center">Pratik Suryawanshi</h1>
+<h3 align="center">Embedded Systems Architect | RTOS & Hardware-in-the-Loop | Bare-Metal Edge</h3>
 
 <p align="center">
-  <i>Specializing in Heterogeneous Computing, Hardware-Software Co-Design, and Scientific AI.</i>
+  <i>Architecting deterministic, safety-critical communication across the hardware-software boundary.</i>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HPC-CUDA%20%7C%20OpenMP%20%7C%20MPI-76B900?logo=nvidia&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI%20Acceleration-PyTorch%20%7C%20TinyML%20%7C%20GNNs-EE4C2C?logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OS-QNX_|_Apache_NuttX_|_FreeRTOS-000000?logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Silicon-STM32_(Bare--Metal)_|_ARM_Cortex--M/A-0036C1?logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Domain-Aerospace_|_Defense_|_Robotics-0091BD?logo=spaceX&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/Architecture-ARM%20%7C%20RISC--V-0091BD?logo=arm&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Silicon-Verilog%20%7C%20SystemVerilog-blue?logo=intel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Embedded-Yocto%20%7C%20Linux%20Kernel-FCC624?logo=linux&logoColor=black"/>
-  <br>
-  <img src="https://img.shields.io/badge/SciComp-Navier--Stokes%20%7C%20Maxwell's%20Eq-ff69b4?logo=wolframmathematica&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Focus-Real--Time%20Determinism-critical?logo=clock&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Protocols-MAVLink_|_POSIX_IPC_|_UDP-FCC624?logo=network&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Compute-CUDA_|_OpenMP_|_SystemVerilog-76B900?logo=nvidia&logoColor=white"/>
 </p>
 
 <p align="center">
@@ -24,51 +21,56 @@
   <a href="mailto:patsuryawanshi@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?logo=gmail&logoColor=white&style=for-the-badge"/>
   </a>
-  <a href="https://www.researchgate.net/profile/Pratik-Suryawanshi-7">
-    <img src="https://img.shields.io/badge/Research-Publications-00CCBB?logo=researchgate&logoColor=white&style=for-the-badge"/>
-  </a>
 </p>
 
 ---
 
-### 🚀 Professional Summary
-I am an R&D Engineer bridging the gap between **Scientific Computing** and **Embedded Hardware**. My work focuses on running complex physical models (PDEs) and AI inference on specialized silicon with strict real-time constraints.
+### 🚀 Status: The Munich Blitz
+📍 **Location:** Munich / Bavaria
+🎯 **Availability:** Actively seeking a Master's Thesis or Werkstudent role.
+⚙️ **Focus:** Autonomous Systems, Flight Controllers (PX4), Hardware-in-the-Loop (HIL), and Microkernel RTOS Integration.
 
 ---
 
-### 🛠️ Technical Arsenal
+### 🔬 Active & Featured Architecture
 
-| Domain | Technologies & Tools |
+#### 1. Automotive Safety Gateway (ASG) - Phase 4 
+*A distributed, POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
+* **The Stack:** `QNX RTOS 8.0` • `Raspberry Pi 4` • `STM32F411` • `Bare-Metal C (Zero HAL)`
+* **Architecture:** Upgraded raw IPC into a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
+* **Safety & Routing:** Engineered an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and built a POSIX UDP telemetry bridge for network visibility.
+* 🔗 [View Architecture & LaTeX Report Here] *(Insert your repo link here)*
+
+#### 2. PX4 Physical Actuator & Sensor-in-the-Loop (PASIL) *(Active Sprint)*
+*Building an aerospace-grade testbench proving mastery of flight stacks, custom RTOS driver integration, and MAVLink telemetry.*
+* **The Stack:** `Apache NuttX` • `PX4 Autopilot` • `MAVLink` • `Gazebo`
+* **Architecture:** Writing custom I2C/SPI drivers in NuttX to expose a physical sensor stack to the PX4 uORB bus. Mapping PX4 mixer outputs to STM32 hardware PWM timers for kinetic actuation.
+
+#### 3. HPC / Silicon Acceleration Background
+*Proving high-performance algorithmic capability and hardware-software co-design.*
+* **Automotive Simulation Engine:** Optimized GPU memory patterns in **CUDA/C++** for real-time vehicle dynamics solving.
+* **SoC Partitioning Framework:** Reduced NoC traffic by 40% for multi-core architectures using **Python/SystemC**.
+
+---
+
+### 🛠️ The Arsenal
+
+| Domain | Technologies & Standards |
 | :--- | :--- |
-| **HPC & Acceleration** | **CUDA**, OpenMP, MPI, SIMD (AVX/RVV), AHMED Library |
-| **Embedded Systems** | **FreeRTOS**, Embedded Linux (Yocto), Bare-metal C, UART/I2C/SPI Drivers |
-| **Hardware Design** | **RISC-V** (T-Head TH1520), ARM Cortex-A/M, **SystemVerilog**, SoC Partitioning |
-| **Algorithms** | Numerical Methods (Elliptic PDEs), FFT/IFFT, Graph Neural Networks (GNN) |
-| **DevOps & Tools** | CMake, Docker, Git, NVIDIA Nsight, Verilator |
-
----
-
-### 🔬 Featured Projects & Research
-
-> *Note: Some repositories are private for IP reasons. Detailed documentation available upon request.*
-
-| Project | Tech Stack | Impact / Metric |
-| :--- | :--- | :--- |
-| **Automotive Simulation Engine** | `CUDA`, `C++`, `NVIDIA Nsight` | Optimized GPU memory patterns for **ZF Group**, enabling real-time vehicle dynamics solving. |
-| **SoC Partitioning Framework** | `Python`, `SystemC`, `Graph Theory` | Reduced NoC traffic by **40%** for **Siemens** multi-core architectures. |
-| **Radar/SAR Imaging Pipeline** | `CUDA`, `OpenMP`, `Jetson TX2` | Accelerated FFT/IFFT kernels by 600% for high-fidelity radar imaging. |
+| **RTOS & Systems** | QNX, Apache NuttX, FreeRTOS, POSIX VFS, IPC Message Passing |
+| **Edge Hardware** | STM32 (Direct Register Manipulation), ARM Cortex-M/A, RISC-V |
+| **Comms & Ecosystem** | MAVLink, PX4, UDP/TCP, UART/I2C/SPI, CCITT-False CRC |
+| **HPC & Acceleration** | CUDA, OpenMP, MPI, SIMD (AVX/RVV) |
 
 ---
 
 ### 🧘‍♂️ The Human Side
-When I am not optimizing kernels or debugging Verilog:
-* **Music:** Classical Flute (Learning & Practice).
-* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Dvait-Advait Philosophy.
-* **Sport:** Swimming & Endurance Training.
+Engineering is a discipline of mind and body. When I am not optimizing embedded kernels:
+* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Advaita Vedanta.
+* **Focus:** Classical Flute practice and Endurance Training.
 
----
 <p align="center">
-  <i>"Seeker of knowledge. Builder of ideas. Explorer of the inner and outer worlds."</i>
+  <i>"I build deterministic systems in a non-deterministic world."</i>
 </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=PS-O5&color=blue)  - Since 23.02.2026
+![Profile Views](https://komarev.com/ghpvc/?username=PS-O5&color=blue) - Since 23.02.2026
