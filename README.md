@@ -27,7 +27,7 @@
 
 ### 🚀 Status: The Munich Blitz
 📍 **Location:** Munich / Bavaria
-🎯 **Availability:** Actively seeking a Master's Thesis or Werkstudent role.
+🎯 **Availability:** Actively seeking a Master's Thesis or Internship/Werkstudent role.
 ⚙️ **Focus:** Autonomous Systems, Flight Controllers (PX4), Hardware-in-the-Loop (HIL), and Microkernel RTOS Integration.
 
 ---
