@@ -39,7 +39,7 @@
 * **The Stack:** `QNX RTOS 8.0` • `Raspberry Pi 4` • `STM32F411` • `Bare-Metal C (Zero HAL)`
 * **Architecture:** Upgraded raw IPC into a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
 * **Safety & Routing:** Engineered an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and built a POSIX UDP telemetry bridge for network visibility.
-* 🔗 [View Architecture & LaTeX Report Here] *https://github.com/PS-O5/QNX-AMP-Gateway-Pi-4-Edge-Node*
+* 🔗 [View Architecture & LaTeX Report Here] (*https://github.com/PS-O5/QNX-AMP-Gateway-Pi-4-Edge-Node*)
 
 #### 2. PX4 Physical Actuator & Sensor-in-the-Loop (PASIL) *(Active Sprint)*
 *Building an aerospace-grade testbench proving mastery of flight stacks, custom RTOS driver integration, and MAVLink telemetry.*
