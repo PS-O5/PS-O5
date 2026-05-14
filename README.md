@@ -38,7 +38,7 @@
 *Aerospace-grade testbench proving mastery of microkernel RTOS driver integration and deterministic bare-metal hardware control.*
 * **The Stack:** `Apache NuttX` • `Bare-Metal C` • `Hardware-in-the-Loop (HIL)` • `SPI/I2C`
 * **Architecture:** Bypassed high-level flight stacks to engineer a custom bare-metal and NuttX-driven physical sensor bridge. Wrote custom low-level drivers to expose raw sensor telemetry and map direct kinetic actuation to STM32 hardware PWM timers, ensuring absolute deterministic execution.
-* 🔗 [View Architecture & Repository Here](INSERT_YOUR_PASIL_LINK_HERE)
+* 🔗 [View Architecture & Repository Here](https://github.com/PS-O5/VANGUARD-PASIL)
 
 #### 2. Automotive Safety Gateway (ASG) - Phase 4 
 *A distributed, POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
