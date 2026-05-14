@@ -28,17 +28,17 @@
 ### 🚀 Status: The Munich Blitz
 📍 **Location:** Munich / Bavaria
 🎯 **Availability:** Actively seeking an M.Sc. Thesis (Masterarbeit) or Werkstudent role in Deep-Tech / Aerospace / Robotics.
-⚙️ **Core Focus:** Autonomous Systems, Flight Controllers (PX4), RTOS Core Isolation, and Bare-Metal Hardware-in-the-Loop (HIL).
+⚙️ **Core Focus:** Autonomous Systems, RTOS Core Isolation, Deterministic HIL Testing, and Bare-Metal Hardware Pipelines.
 
 ---
 
 ### 🔬 Active Deployments & Architecture
 
-#### 1. PX4 Physical Actuator & Sensor-in-the-Loop (PASIL)
-*Aerospace-grade testbench proving mastery of flight stacks, custom RTOS driver integration, and deterministic telemetry.*
-* **The Stack:** `Apache NuttX` • `PX4 Autopilot` • `MAVLink` • `Gazebo`
-* **Architecture:** Writing custom I2C/SPI drivers in NuttX to expose a physical sensor stack to the PX4 uORB bus. Mapping PX4 mixer outputs to STM32 hardware PWM timers for kinetic actuation.
-* 🔗 [View Architecture & Repository Here](https://github.com/PS-O5/VANGUARD-PASIL)
+#### 1. Physical Actuator & Sensor-in-the-Loop (PASIL)
+*Aerospace-grade testbench proving mastery of microkernel RTOS driver integration and deterministic bare-metal hardware control.*
+* **The Stack:** `Apache NuttX` • `Bare-Metal C` • `Hardware-in-the-Loop (HIL)` • `SPI/I2C`
+* **Architecture:** Bypassed high-level flight stacks to engineer a custom bare-metal and NuttX-driven physical sensor bridge. Wrote custom low-level drivers to expose raw sensor telemetry and map direct kinetic actuation to STM32 hardware PWM timers, ensuring absolute deterministic execution.
+* 🔗 [View Architecture & Repository Here](INSERT_YOUR_PASIL_LINK_HERE)
 
 #### 2. Automotive Safety Gateway (ASG) - Phase 4 
 *A distributed, POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
@@ -53,10 +53,11 @@
 * **Architecture:** Engineered an Asymmetric Multi-Processing (AMP) bridge. The STM32 acts as a dedicated, bare-metal sensor ECU maintaining a strict 50Hz deterministic hardware loop. Data is passed via high-speed UART to a dual-core ESP32 TCU. 
 * **Core Isolation:** Utilized FreeRTOS core-pinning to isolate non-deterministic WiFi/UDP transport from the real-time sensor queue, achieving sub-5ms transport latency to a ROS2 `tf2` tree.
 
-#### 4. Bare-Metal DMA Graphics Pipeline *(In Development)*
-*Proving extreme hardware-software co-design by bypassing RAM limitations on ARM Cortex-M architecture.*
+#### 4. Wolfenstein 3D Bare-Metal Port *(In Development)*
+*A register-level DMA graphics pipeline proving extreme hardware-software co-design on constrained ARM Cortex-M architecture.*
 * **The Stack:** `STM32H7` • `SPI` • `Direct Memory Access (DMA)` • `Fixed-Point C`
-* **Architecture:** Developing a custom 3D raycasting engine from scratch. Designed a "Slice & Stream" rendering pipeline that completely bypasses the need for a full framebuffer. The CPU calculates geometry while the DMA asynchronously blasts 16bpp RGB565 columns to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
+* **Architecture:** Engineering a bare-metal port of the legendary 1992 raycasting engine. Designed a "Slice & Stream" rendering pipeline that bypasses the 128KB SRAM limit by eliminating the framebuffer. 
+* **Optimization:** The CPU calculates column geometry using heavily optimized fixed-point trigonometry while the DMA asynchronously blasts 16bpp RGB565 columns to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
 
 ---
 
