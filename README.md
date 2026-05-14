@@ -25,33 +25,38 @@
 
 ---
 
-### 🚀 Operational Readiness
+### 🚀 Status: The Munich Blitz
 📍 **Location:** Munich / Bavaria
-🎯 **Availability:** Actively seeking an M.Sc. Thesis (Masterarbeit) or Werkstudent role in Deep-Tech / Robotics.
-⚙️ **Core Focus:** Distributed Autonomous Systems, RTOS Core Isolation, Bare-Metal Graphics Pipelines, and HIL Testing.
+🎯 **Availability:** Actively seeking an M.Sc. Thesis (Masterarbeit) or Werkstudent role in Deep-Tech / Aerospace / Robotics.
+⚙️ **Core Focus:** Autonomous Systems, Flight Controllers (PX4), RTOS Core Isolation, and Bare-Metal Hardware-in-the-Loop (HIL).
 
 ---
 
 ### 🔬 Active Deployments & Architecture
 
-#### 1. ROS2 Distributed Kinematics Node (AMP Architecture) *(Active Sprint)*
-*A physically isolated, heterogeneous compute pipeline for autonomous robotics.*
-* **The Stack:** `ROS2` • `FreeRTOS SMP` • `Micro-ROS (XRCE-DDS)` • `STM32F411` • `ESP32`
-* **Architecture:** Engineered an Asymmetric Multi-Processing (AMP) bridge. The STM32 acts as a dedicated, bare-metal sensor ECU maintaining a strict 50Hz deterministic hardware loop.
-* **Telemetry:** Data is passed via high-speed UART to a dual-core ESP32 TCU. Utilized FreeRTOS core-pinning to isolate non-deterministic WiFi/UDP transport from the real-time sensor queue, achieving sub-5ms transport latency to a ROS2 `tf2` tree.
+#### 1. PX4 Physical Actuator & Sensor-in-the-Loop (PASIL)
+*Aerospace-grade testbench proving mastery of flight stacks, custom RTOS driver integration, and deterministic telemetry.*
+* **The Stack:** `Apache NuttX` • `PX4 Autopilot` • `MAVLink` • `Gazebo`
+* **Architecture:** Writing custom I2C/SPI drivers in NuttX to expose a physical sensor stack to the PX4 uORB bus. Mapping PX4 mixer outputs to STM32 hardware PWM timers for kinetic actuation.
+* 🔗 [View Architecture & Repository Here](https://github.com/PS-O5/VANGUARD-PASIL)
 
-#### 2. Automotive Safety Gateway (ASG) 
-*A POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
+#### 2. Automotive Safety Gateway (ASG) - Phase 4 
+*A distributed, POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
 * **The Stack:** `QNX RTOS 8.0` • `Raspberry Pi 4` • `STM32F411` • `Bare-Metal C (Zero HAL)`
-* **Architecture:** Engineered a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
-* **Safety:** Built an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and a UDP telemetry bridge.
+* **Architecture:** Upgraded raw IPC into a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
+* **Safety:** Engineered an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and built a POSIX UDP telemetry bridge for network visibility.
 * 🔗 [View Architecture & LaTeX Report Here](https://github.com/PS-O5/QNX-AMP-Gateway-Pi-4-Edge-Node)
 
-#### 3. Bare-Metal DMA Raycaster *(In Development)*
+#### 3. ROS2 Distributed Kinematics Node (AMP Architecture) *(Active Sprint)*
+*A physically isolated, heterogeneous compute pipeline for autonomous robotics.*
+* **The Stack:** `ROS2` • `FreeRTOS SMP` • `Micro-ROS (XRCE-DDS)` • `STM32F411` • `ESP32`
+* **Architecture:** Engineered an Asymmetric Multi-Processing (AMP) bridge. The STM32 acts as a dedicated, bare-metal sensor ECU maintaining a strict 50Hz deterministic hardware loop. Data is passed via high-speed UART to a dual-core ESP32 TCU. 
+* **Core Isolation:** Utilized FreeRTOS core-pinning to isolate non-deterministic WiFi/UDP transport from the real-time sensor queue, achieving sub-5ms transport latency to a ROS2 `tf2` tree.
+
+#### 4. Bare-Metal DMA Graphics Pipeline *(In Development)*
 *Proving extreme hardware-software co-design by bypassing RAM limitations on ARM Cortex-M architecture.*
 * **The Stack:** `STM32H7` • `SPI` • `Direct Memory Access (DMA)` • `Fixed-Point C`
-* **Architecture:** Developing a custom 3D raycasting engine from scratch. Designed a "Slice & Stream" rendering pipeline that completely bypasses the need for a full framebuffer.
-* **Optimization:** The CPU calculates column geometry using heavily optimized fixed-point trigonometry while the DMA controller asynchronously blasts the previous 16bpp RGB565 column to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
+* **Architecture:** Developing a custom 3D raycasting engine from scratch. Designed a "Slice & Stream" rendering pipeline that completely bypasses the need for a full framebuffer. The CPU calculates geometry while the DMA asynchronously blasts 16bpp RGB565 columns to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
 
 ---
 
@@ -59,18 +64,22 @@
 
 | Domain | Technologies & Standards |
 | :--- | :--- |
-| **RTOS & Systems** | FreeRTOS (SMP), QNX, Apache NuttX, POSIX VFS, IPC Message Passing |
+| **RTOS & Systems** | QNX, Apache NuttX, FreeRTOS (SMP), POSIX VFS, IPC Message Passing |
 | **Hardware Abstraction** | Bare-Metal C (Register-Level), Zero HAL, Custom DMA Pipelines |
-| **Silicon Targets** | STM32 (Cortex-M4/M7), ESP32 (Xtensa Dual-Core), Raspberry Pi |
-| **Comms & Ecosystem** | ROS2, Micro-ROS, MAVLink, UDP/TCP, UART/I2C/SPI |
+| **Silicon Targets** | STM32 (Cortex-M4/M7), ESP32 (Xtensa Dual-Core), Raspberry Pi, RISC-V |
+| **Comms & Ecosystem** | ROS2, Micro-ROS, MAVLink, PX4, UDP/TCP, UART/I2C/SPI |
+| **HPC & Acceleration** | CUDA, OpenMP, MPI, SystemVerilog |
 
 ---
 
 ### 🧘‍♂️ Operational Psychology
 Engineering complex systems requires absolute mental bandwidth. I maintain mine through strict offline discipline:
-* **Endurance Training:** Building physical baseline and stress tolerance.
-* **Classical Flute:** Training focus, breath control, and pattern recognition.
-* **Philosophy:** Studying *Tantra* and Advaita Vedanta to maintain deterministic focus in a non-deterministic world.
+* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Advaita Vedanta.
+* **Focus:** Classical Flute practice and Endurance Training.
+
+<p align="center">
+  <i>"I build deterministic systems in a non-deterministic world."</i>
+</p>
 
 <br>
 
