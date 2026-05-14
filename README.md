@@ -7,15 +7,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OS-QNX_|_Apache_NuttX_|_FreeRTOS-000000?logo=linux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Silicon-STM32_(Bare--Metal)_|_ARM_Cortex--M/A-0036C1?logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Silicon-STM32_(Bare--Metal)_|_ESP32_SMP-0036C1?logo=stmicroelectronics&logoColor=white"/>
   <img src="https://img.shields.io/badge/Domain-Aerospace_|_Defense_|_Robotics-0091BD?logo=spaceX&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/Protocols-MAVLink_|_POSIX_IPC_|_UDP-FCC624?logo=network&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Protocols-XRCE--DDS_|_MAVLink_|_POSIX_IPC-FCC624?logo=network&logoColor=black"/>
   <img src="https://img.shields.io/badge/Compute-CUDA_|_OpenMP_|_SystemVerilog-76B900?logo=nvidia&logoColor=white"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ps-o5/"> 
+  <a href="https://www.linkedin.com/in/ps-o5/">  
     <img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"/>
   </a>
   <a href="mailto:patsuryawanshi@gmail.com">
@@ -25,31 +25,33 @@
 
 ---
 
-### 🚀 Status: The Munich Blitz
+### 🚀 Operational Readiness
 📍 **Location:** Munich / Bavaria
-🎯 **Availability:** Actively seeking a Master's Thesis or Internship/Werkstudent role.
-⚙️ **Focus:** Autonomous Systems, Flight Controllers (PX4), Hardware-in-the-Loop (HIL), and Microkernel RTOS Integration.
+🎯 **Availability:** Actively seeking an M.Sc. Thesis (Masterarbeit) or Werkstudent role in Deep-Tech / Robotics.
+⚙️ **Core Focus:** Distributed Autonomous Systems, RTOS Core Isolation, Bare-Metal Graphics Pipelines, and HIL Testing.
 
 ---
 
-### 🔬 Active & Featured Architecture
+### 🔬 Active Deployments & Architecture
 
-#### 1. Automotive Safety Gateway (ASG) - Phase 4 
-*A distributed, POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
+#### 1. ROS2 Distributed Kinematics Node (AMP Architecture) *(Active Sprint)*
+*A physically isolated, heterogeneous compute pipeline for autonomous robotics.*
+* **The Stack:** `ROS2` • `FreeRTOS SMP` • `Micro-ROS (XRCE-DDS)` • `STM32F411` • `ESP32`
+* **Architecture:** Engineered an Asymmetric Multi-Processing (AMP) bridge. The STM32 acts as a dedicated, bare-metal sensor ECU maintaining a strict 50Hz deterministic hardware loop.
+* **Telemetry:** Data is passed via high-speed UART to a dual-core ESP32 TCU. Utilized FreeRTOS core-pinning to isolate non-deterministic WiFi/UDP transport from the real-time sensor queue, achieving sub-5ms transport latency to a ROS2 `tf2` tree.
+
+#### 2. Automotive Safety Gateway (ASG) 
+*A POSIX-compliant enterprise node bridging a bare-metal edge controller with a microkernel RTOS.*
 * **The Stack:** `QNX RTOS 8.0` • `Raspberry Pi 4` • `STM32F411` • `Bare-Metal C (Zero HAL)`
-* **Architecture:** Upgraded raw IPC into a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
-* **Safety & Routing:** Engineered an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and built a POSIX UDP telemetry bridge for network visibility.
+* **Architecture:** Engineered a formal **QNX POSIX VFS Resource Manager**, mounting the STM32 directly into the file system (`/dev/asg_sensor`). 
+* **Safety:** Built an ASIL-aware hardware Independent Watchdog (IWDG) for graceful degradation and a UDP telemetry bridge.
 * 🔗 [View Architecture & LaTeX Report Here](https://github.com/PS-O5/QNX-AMP-Gateway-Pi-4-Edge-Node)
 
-#### 2. PX4 Physical Actuator & Sensor-in-the-Loop (PASIL) *(Active Sprint)*
-*Building an aerospace-grade testbench proving mastery of flight stacks, custom RTOS driver integration, and MAVLink telemetry.*
-* **The Stack:** `Apache NuttX` • `PX4 Autopilot` • `MAVLink` • `Gazebo`
-* **Architecture:** Writing custom I2C/SPI drivers in NuttX to expose a physical sensor stack to the PX4 uORB bus. Mapping PX4 mixer outputs to STM32 hardware PWM timers for kinetic actuation.
-
-#### 3. HPC / Silicon Acceleration Background
-*Proving high-performance algorithmic capability and hardware-software co-design.*
-* **Automotive Simulation Engine:** Optimized GPU memory patterns in **CUDA/C++** for real-time vehicle dynamics solving.
-* **SoC Partitioning Framework:** Reduced NoC traffic by 40% for multi-core architectures using **Python/SystemC**.
+#### 3. Bare-Metal DMA Raycaster *(In Development)*
+*Proving extreme hardware-software co-design by bypassing RAM limitations on ARM Cortex-M architecture.*
+* **The Stack:** `STM32H7` • `SPI` • `Direct Memory Access (DMA)` • `Fixed-Point C`
+* **Architecture:** Developing a custom 3D raycasting engine from scratch. Designed a "Slice & Stream" rendering pipeline that completely bypasses the need for a full framebuffer.
+* **Optimization:** The CPU calculates column geometry using heavily optimized fixed-point trigonometry while the DMA controller asynchronously blasts the previous 16bpp RGB565 column to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
 
 ---
 
@@ -57,20 +59,21 @@
 
 | Domain | Technologies & Standards |
 | :--- | :--- |
-| **RTOS & Systems** | QNX, Apache NuttX, FreeRTOS, POSIX VFS, IPC Message Passing |
-| **Edge Hardware** | STM32 (Direct Register Manipulation), ARM Cortex-M/A, RISC-V |
-| **Comms & Ecosystem** | MAVLink, PX4, UDP/TCP, UART/I2C/SPI, CCITT-False CRC |
-| **HPC & Acceleration** | CUDA, OpenMP, MPI, SIMD (AVX/RVV) |
+| **RTOS & Systems** | FreeRTOS (SMP), QNX, Apache NuttX, POSIX VFS, IPC Message Passing |
+| **Hardware Abstraction** | Bare-Metal C (Register-Level), Zero HAL, Custom DMA Pipelines |
+| **Silicon Targets** | STM32 (Cortex-M4/M7), ESP32 (Xtensa Dual-Core), Raspberry Pi |
+| **Comms & Ecosystem** | ROS2, Micro-ROS, MAVLink, UDP/TCP, UART/I2C/SPI |
 
 ---
 
-### 🧘‍♂️ The Human Side
-Engineering is a discipline of mind and body. When I am not optimizing embedded kernels:
-* **Philosophy:** Student of *Tantra* (Science of Inner Transformation) & Advaita Vedanta.
-* **Focus:** Classical Flute practice and Endurance Training.
+### 🧘‍♂️ Operational Psychology
+Engineering complex systems requires absolute mental bandwidth. I maintain mine through strict offline discipline:
+* **Endurance Training:** Building physical baseline and stress tolerance.
+* **Classical Flute:** Training focus, breath control, and pattern recognition.
+* **Philosophy:** Studying *Tantra* and Advaita Vedanta to maintain deterministic focus in a non-deterministic world.
+
+<br>
 
 <p align="center">
-  <i>"I build deterministic systems in a non-deterministic world."</i>
+  <img src="https://komarev.com/ghpvc/?username=PS-O5&color=blue" alt="Profile Views" />
 </p>
-
-![Profile Views](https://komarev.com/ghpvc/?username=PS-O5&color=blue) - Since 23.02.2026
