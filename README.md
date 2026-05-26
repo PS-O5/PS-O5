@@ -2,7 +2,7 @@
 <h3 align="center">Embedded Systems Architect | RTOS & Hardware-in-the-Loop | Bare-Metal Edge</h3>
 
 <p align="center">
-  <i>Architecting deterministic, safety-critical communication across the hardware-software boundary.</i>
+  <i>Architecting deterministic, safety-critical and robust systems across the hardware-software boundary.</i>
 </p>
 
 <p align="center">
