@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OS-QNX_|_Apache_NuttX_|_FreeRTOS-000000?logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OS-QNX_|_Apache_NuttX_|_FreeRTOS|_PX4_|_Zephyr_|-000000?logo=linux&logoColor=white"/>
   <img src="https://img.shields.io/badge/Silicon-STM32_(Bare--Metal)_|_ESP32_SMP-0036C1?logo=stmicroelectronics&logoColor=white"/>
   <img src="https://img.shields.io/badge/Domain-Aerospace_|_Defense_|_Robotics-0091BD?logo=spaceX&logoColor=white"/>
   <br>
