@@ -53,11 +53,12 @@
 * **Architecture:** Engineered an Asymmetric Multi-Processing (AMP) bridge. The STM32 acts as a dedicated, bare-metal sensor ECU maintaining a strict 50Hz deterministic hardware loop. Data is passed via high-speed UART to a dual-core ESP32 TCU. 
 * **Core Isolation:** Utilized FreeRTOS core-pinning to isolate non-deterministic WiFi/UDP transport from the real-time sensor queue, achieving sub-5ms transport latency to a ROS2 `tf2` tree.
 
-#### 4. Wolfenstein 3D Bare-Metal Port *(In Development)*
+#### 4. Wolfenstein 3D Bare-Metal Port
 *A register-level DMA graphics pipeline proving extreme hardware-software co-design on constrained ARM Cortex-M architecture.*
-* **The Stack:** `STM32H7` • `SPI` • `Direct Memory Access (DMA)` • `Fixed-Point C`
+* **The Stack:** `STM32F411CEU6` • `SPI` • `Direct Memory Access (DMA)` • `Fixed-Point C`
 * **Architecture:** Engineering a bare-metal port of the legendary 1992 raycasting engine. Designed a "Slice & Stream" rendering pipeline that bypasses the 128KB SRAM limit by eliminating the framebuffer. 
 * **Optimization:** The CPU calculates column geometry using heavily optimized fixed-point trigonometry while the DMA asynchronously blasts 16bpp RGB565 columns to an ST7789 display, achieving maximum SPI throughput with Zero HAL bloat.
+* 🔗 [View Repo and the Game Engine Here](https://github.com/PS-O5/wolf3d-stm32f411ceu6)
 
 ---
 
