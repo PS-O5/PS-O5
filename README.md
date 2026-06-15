@@ -1,16 +1,24 @@
 <h1 align="center">Pratik Suryawanshi</h1>
 
 <p align="center">
-Embedded Systems Engineer → Systems Architect | Avionics · Autonomous Systems · Safety-Critical Firmware
+  Embedded Systems Engineer → Systems Architect | Avionics · Autonomous Systems · Safety-Critical Firmware
 </p>
 
 <p align="center">
-*M.Sc. Scientific Computing — Elite Network of Bavaria, University of Bayreuth*
-*Munich / Bavaria, Germany*
+  <em>M.Sc. Scientific Computing — Elite Network of Bavaria, University of Bayreuth</em><br>
+  Munich / Bavaria, Germany
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ps-o5/)
-[![Email](https://img.shields.io/badge/Email-PatSuryawanshi@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:patsuryawanshi@gmail.com)
-![Status](https://img.shields.io/badge/Status-Open%20to%20Werkstudent%20%2F%20Full--Time-brightgreen)
+<p align="center">
+  <a href="https://www.linkedin.com/in/ps-o5/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="mailto:patsuryawanshi@gmail.com">
+    <img src="https://img.shields.io/badge/Email-PatSuryawanshi%40gmail.com-D14836?logo=gmail&logoColor=white" />
+  </a>
+
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Werkstudent%20%2F%20Full--Time-brightgreen" />
 </p>
 
 ---
