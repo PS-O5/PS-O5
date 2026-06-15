@@ -1,4 +1,4 @@
-# Pratik Suryawanshi
+<p align=center> # Pratik Suryawanshi
 ### Embedded Systems Engineer → Systems Architect | Avionics · Autonomous Systems · Safety-Critical Firmware
 
 *M.Sc. Scientific Computing — Elite Network of Bavaria, University of Bayreuth*
