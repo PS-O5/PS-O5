@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ps-o5/)
 [![Email](https://img.shields.io/badge/Email-PatSuryawanshi@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:patsuryawanshi@gmail.com)
-![Status](https://img.shields.io/badge/Status-Open%20to%20Werkstudent%20%2F%20Thesis%20%2F%20Full--Time-brightgreen)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Werkstudent%20%2F%20Full--Time-brightgreen)
 
 ---
 
@@ -14,9 +14,9 @@
 
 I build systems where failure is not recoverable and timing is not negotiable.
 
-Three years across radar imaging, autonomous UAV stacks, and HPC numerical solvers have converged on a single discipline: **designing deterministic software architectures across the full hardware-software boundary** — from register-level silicon up to distributed RTOS microkernel design.
+Three years across radar imaging, autonomous UAV stacks, and HPC numerical solvers have converged on a single discipline: **designing deterministic software architectures across the full hardware-software boundary** from register-level silicon up to distributed RTOS microkernel design.
 
-My work lives in the intersection of control theory, real-time OS internals, and embedded compute constraints. I don't integrate systems — I architect them from the physics upward.
+My work lives in the intersection of control theory, real-time OS internals, and embedded compute constraints. I don't integrate systems, I architect them from the physics upward.
 
 ---
 
@@ -37,13 +37,13 @@ A hard real-time flight stack proving that deterministic avionics behavior is ac
 
 ---
 
-### Real-Time Embedded MPC Engine
+### Real-Time Embedded MPC Engine (Current Sprint)
 > *Pure C++17 · ARM Cortex-M4/M7 · Zero-Allocation · Active Development*
 
 A constrained Model Predictive Control engine built from first principles — no libraries, no heap, no compromises on WCET.
 
 - Warm-started **Fast Gradient Method (FGM)** with Nesterov acceleration for a 4-state, 1-input reaction-wheel inverted pendulum
-- Compile-time matrix dimension resolution via C++17 templates (`std::array`) — zero runtime overhead, zero heap fragmentation
+- Compile-time matrix dimension resolution via C++17 templates (`std::array`); zero runtime overhead, zero heap fragmentation
 - In-place **Cholesky decomposition** solver operating entirely on the stack, bypassing matrix inversion in real-time
 - Memory layout maps solver kernel to **ITCM**, state matrices to **DTCM** for zero-wait-state processing
 - AHB bus matrix isolation of display pipeline to eliminate CPU cache contention
@@ -53,7 +53,7 @@ A constrained Model Predictive Control engine built from first principles — no
 ### Automotive Safety Gateway (ASG)
 > *QNX RTOS 8.0 · Raspberry Pi 4 · STM32F411 · POSIX VFS*
 
-A distributed AMP architecture bridging a microkernel RTOS host with a bare-metal edge controller — modeled after production automotive gateway patterns.
+A distributed AMP architecture bridging a microkernel RTOS host with a bare-metal edge controller; modeled after production automotive gateway patterns.
 
 - STM32 edge node mounted directly into the QNX microkernel filesystem at `/dev/asg_sensor` via a formal **POSIX VFS Resource Manager**
 - ASIL-aware **Independent Watchdog (IWDG)** system with graceful degradation state machine
@@ -66,7 +66,7 @@ A distributed AMP architecture bridging a microkernel RTOS host with a bare-meta
 ### Wolf3D Bare-Metal Port
 > *Bare-Metal C · STM32F411CEU6 · DMA · No OS*
 
-A complete port of the 1992 Wolfenstein 3D raycasting engine onto bare-metal ARM — no OS, no framebuffer, 128 KB SRAM.
+A complete port of the 1992 Wolfenstein 3D raycasting engine onto bare-metal ARM: no OS, no framebuffer, 128 KB SRAM.
 
 - "Slice & Stream" rendering pipeline: CPU computes column geometry in fixed-point trigonometry, **DMA asynchronously transfers** 16bpp RGB565 columns to ST7789 display
 - Eliminates global framebuffer entirely — physics within silicon constraints
@@ -124,7 +124,7 @@ Elite Network of Bavaria | Focus: HPC, Numerical Methods, GPU-Accelerated Solver
 
 ## Availability
 
-Open to **Werkstudent**, **M.Sc. Thesis**, and **full-time roles** in avionics, autonomous systems, space, or defense.
+Open to **Werkstudent**, and **full-time roles** in avionics, autonomous systems, space, or defense.
 German: B2 | Immediate availability | Munich / Bavaria
 
 ---
