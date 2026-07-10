@@ -1,7 +1,7 @@
 <h1 align="center">Pratik Suryawanshi</h1>
 
 <p align="center">
-  Embedded Systems Engineer → Systems Architect | Avionics · Autonomous Systems · Safety-Critical Firmware
+  Systems Engineer → Systems Architect | Avionics · Autonomous Systems · Safety-Critical Firmware
 </p>
 
 <p align="center">
