@@ -50,6 +50,19 @@ A hard real-time flight stack proving that deterministic avionics behavior is ac
 
 ---
 
+### Wolf3D Bare-Metal Port
+> *Bare-Metal C · STM32F411CEU6 · DMA · No OS*
+
+A complete port of the 1992 Wolfenstein 3D raycasting engine onto bare-metal ARM: no OS, no framebuffer, 128 KB SRAM.
+
+- "Slice & Stream" rendering pipeline: CPU computes column geometry in fixed-point trigonometry, **DMA asynchronously transfers** 16bpp RGB565 columns to ST7789 display
+- Eliminates global framebuffer entirely — physics within silicon constraints
+- Raw ADC analog joystick and timer-driven PWM audio through a piezo speaker
+
+[→ Codebase & Architecture](https://github.com/PS-O5/wolf3d-stm32f411ceu6)
+
+---
+
 ### Real-Time Embedded MPC Engine (Current Sprint)
 > *Pure C++17 · ARM Cortex-M4/M7 · Zero-Allocation · Active Development*
 
@@ -76,18 +89,6 @@ A distributed AMP architecture bridging a microkernel RTOS host with a bare-meta
 
 ---
 
-### Wolf3D Bare-Metal Port
-> *Bare-Metal C · STM32F411CEU6 · DMA · No OS*
-
-A complete port of the 1992 Wolfenstein 3D raycasting engine onto bare-metal ARM: no OS, no framebuffer, 128 KB SRAM.
-
-- "Slice & Stream" rendering pipeline: CPU computes column geometry in fixed-point trigonometry, **DMA asynchronously transfers** 16bpp RGB565 columns to ST7789 display
-- Eliminates global framebuffer entirely — physics within silicon constraints
-- Raw ADC analog joystick and timer-driven PWM audio through a piezo speaker
-
-[→ Codebase & Architecture](https://github.com/PS-O5/wolf3d-stm32f411ceu6)
-
----
 
 ## Technical Stack
 
