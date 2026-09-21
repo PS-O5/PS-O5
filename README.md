@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Email-PatSuryawanshi%40gmail.com-D14836?logo=gmail&logoColor=white" />
   </a>
 
-  <img src="https://img.shields.io/badge/Status-Open%20to%20%2F%20Full--Time-brightgreen" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Full--Time-brightgreen" />
 </p>
 
 ---
