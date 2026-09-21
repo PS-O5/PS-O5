@@ -35,7 +35,7 @@ My work lives in the intersection of control theory, real-time OS internals, and
 
 ## What I've Shipped
 
-### VANGUARD-PASIL: 500Hz Avionics Flight Stack
+### VANGUARD-PASIL : 500Hz Avionics Flight Stack
 > *Apache NuttX · Bare-Metal C · STM32F411 · HIL Validation*
 
 A hard real-time flight stack proving that deterministic avionics behavior is achievable at the microcontroller level without a full flight OS.
