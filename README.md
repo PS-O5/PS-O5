@@ -103,42 +103,12 @@ A distributed AMP architecture bridging a microkernel RTOS host with a bare-meta
 | **Safety Standards** | ISO 26262, DO-178C, IEC 61508 — domain awareness across automotive, avionics, industrial |
 | **Tools** | Git, CMake, Docker, Gazebo, MATLAB, Logic Analyzers, Oscilloscopes |
 
----
-
-## Professional Experience
-
-**Research Assistant — HPC & Numerical Methods**
-*University of Bayreuth | Nov 2023 – Present*
-
-Optimizing Hierarchical Matrix (H-Matrix) arithmetic for GPU-accelerated physics solvers (CUDA C++). Achieved 52% memory compression and 2× speedup over CPU baseline. Bridges dense and sparse linear algebra for large-scale simulations.
-
-**Embedded Software Developer — Radar / SAR Imaging**
-*Hyspace Technologies | Oct 2022 – Oct 2023*
-
-Architected real-time radar signal pipelines on NVIDIA Jetson TX2. Delivered a **10× latency reduction** (13s → 1.3s) via CUDA parallelization, DMA, and Network-on-Chip optimization. Sustained **680 Mbps continuous throughput** across 6-channel multispectral double-precision sensor streams using zero-copy CPU/GPU memory interfaces.
-
-**Embedded Systems & Mechanical Engineer**
-*QSON Technologies | Feb 2022 – Sept 2022*
-
-Full-cycle firmware development and hardware bring-up on STM32 and AVR platforms. Custom low-level drivers across UART, I2C, SPI.
-
----
-
-## Education
-
-**M.Sc. Scientific Computing** — University of Bayreuth, Germany *(Oct 2023 – Sept 2026)*
-Elite Network of Bavaria | Focus: HPC, Numerical Methods, GPU-Accelerated Solvers
-
-**B.E. Mechanical Engineering** — University of Mumbai *(2019)*
-8.82 / 10 | Control Systems, Mechatronics, Machine Design
-
-*Published research: Springer (IISc) · IEEE ICNGIS*
 
 ---
 
 ## Availability
 
-Open to **Werkstudent**, and **full-time roles** in avionics, autonomous systems, space, or defense.
+Open to **full-time roles** in avionics, autonomous systems, space, or defense.
 German: B2 | Immediate availability | Munich / Bavaria
 
 ---
